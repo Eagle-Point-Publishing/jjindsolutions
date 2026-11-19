@@ -1,0 +1,21 @@
+name: Validate site
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate website copy, footer, and links
+        run: python3 scripts/validate-site.py
+      - name: Check Sage callback policy
+        run: node scripts/test-sage-abandonment.js
+      - name: Reject removed capabilities and preview-only assets
+        run: python3 scripts/test-site-policy.py

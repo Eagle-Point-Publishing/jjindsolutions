@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Canyon Rim Industrial square mark</title>
+  <desc id="desc">A bold industrial canyon-rim logo mark in charcoal, white, and safety orange.</desc>
+  <defs>
+    <clipPath id="badgeClip">
+      <rect x="32" y="32" width="448" height="448" rx="52"/>
+    </clipPath>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="52" fill="#14161a"/>
+  <g clip-path="url(#badgeClip)">
+    <path d="M32 382H480V480H32Z" fill="#0e0f12"/>
+    <path d="M72 336L156 180L236 286L322 136L440 336H72Z" fill="#ffffff"/>
+    <path d="M72 336L156 180L236 286L322 136L440 336H72Z" fill="#f0731f" opacity=".98"/>
+    <path d="M118 312L158 238L202 301L224 267L247 304L282 242L328 312H118Z" fill="#14161a"/>
+    <path d="M236 286L322 136L440 336H348L318 290L286 336H210L236 286Z" fill="#111317" opacity=".92"/>
+    <path d="M150 350H362L319 394H193L150 350Z" fill="#f0731f"/>
+    <path d="M188 350H324L296 378H216L188 350Z" fill="#14161a"/>
+    <path d="M98 332H414" stroke="#ffffff" stroke-width="14" stroke-linecap="square"/>
+    <path d="M72 336H440" stroke="#f0731f" stroke-width="10" stroke-linecap="square"/>
+    <path d="M100 418H412" stroke="#f0731f" stroke-width="16" stroke-linecap="square"/>
+  </g>
+  <rect x="32" y="32" width="448" height="448" rx="52" fill="none" stroke="#f0731f" stroke-width="14"/>
+</svg>

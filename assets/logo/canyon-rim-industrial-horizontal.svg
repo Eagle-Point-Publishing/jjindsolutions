@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Canyon Rim Industrial horizontal logo</title>
+  <desc id="desc">Horizontal lockup for Canyon Rim Industrial with canyon-rim mark and heavy industrial wordmark.</desc>
+  <defs>
+    <clipPath id="markClip">
+      <rect x="44" y="42" width="276" height="276" rx="28"/>
+    </clipPath>
+  </defs>
+  <g>
+    <rect x="44" y="42" width="276" height="276" rx="28" fill="#14161a"/>
+    <g clip-path="url(#markClip)">
+      <path d="M44 258H320V318H44Z" fill="#0e0f12"/>
+      <path d="M70 230L122 134L174 202L226 110L298 230H70Z" fill="#f0731f"/>
+      <path d="M98 214L124 166L153 207L168 184L183 209L207 168L236 214H98Z" fill="#14161a"/>
+      <path d="M174 202L226 110L298 230H244L224 200L204 230H158L174 202Z" fill="#111317" opacity=".92"/>
+      <path d="M118 240H246L220 268H144L118 240Z" fill="#f0731f"/>
+      <path d="M144 240H220L204 256H160L144 240Z" fill="#14161a"/>
+      <path d="M82 228H282" stroke="#ffffff" stroke-width="9" stroke-linecap="square"/>
+      <path d="M70 232H298" stroke="#f0731f" stroke-width="7" stroke-linecap="square"/>
+      <path d="M88 286H276" stroke="#f0731f" stroke-width="10" stroke-linecap="square"/>
+    </g>
+    <rect x="44" y="42" width="276" height="276" rx="28" fill="none" stroke="#f0731f" stroke-width="8"/>
+  </g>
+  <g fill="#14161a">
+    <text x="360" y="160" font-family="Barlow Condensed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="92" font-weight="700" letter-spacing="5">CANYON RIM</text>
+    <text x="362" y="231" font-family="Barlow Condensed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="55" font-weight="700" letter-spacing="12">INDUSTRIAL</text>
+  </g>
+  <path d="M360 264H1042" stroke="#f0731f" stroke-width="12" stroke-linecap="square"/>
+  <path d="M1058 264H1138" stroke="#14161a" stroke-width="12" stroke-linecap="square"/>
+  <text x="362" y="304" fill="#545b66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">SHUTDOWN SUPPORT  |  MILLWRIGHT  |  INDUSTRIAL MAINTENANCE</text>
+</svg>
